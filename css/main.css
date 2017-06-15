@@ -172,7 +172,7 @@ hr{
 	font-weight: 900;
 	text-align: center;
 	font-size: 40px;
-	padding-top: 10rem;
+	padding-top: 5rem;
 }
 
 .linecarousel{
@@ -351,4 +351,57 @@ width: 70%;
 .btn-primary:hover, .btn:active, .btn:focus{
 	background-color: #d7c057;
 	border-color: #d7c057;
+}
+
+/* SEVEN section */
+
+.seven-section{
+	background-image: url(../img/bg-pricing.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 50px;
+	
+}
+
+.hours{
+	font-family: 'Montserrat';
+	color: white;
+	font-weight: 900;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 2rem;
+}
+
+.pequeño{
+	color: white;
+}
+
+.break{
+	font-weight: 900;
+	font-size: 26px;
+}
+
+.box{
+	margin-top: 2rem;
+	width: 30rem;
+	height: 65vh;
+	background-color: white;
+	margin-left: 5rem;
+}
+
+.week{
+	margin-top: 30px;
+}
+
+.btn-default{
+	margin-top: 30px;
+}
+
+/* MENU section */
+
+.menu{
+	background-color: white;
+	height: 100vh;
+	width: 100%;
 }
