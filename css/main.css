@@ -162,9 +162,9 @@ hr{
 
 /* CAROUSEL */
 
-.five-section{
+.four-section{
 	background-color: #f7f7f7;
-	height: 100vh;
+	height: 130vh;
 }
 .people{
 	font-family: 'Montserrat';
@@ -234,4 +234,121 @@ hr{
 	width: 10rem;
 	height: 30%;
 	margin-top: 15rem;
+}
+
+/* five section */
+
+.five-section{
+	height: 120vh;
+	width: 100%;
+	background-color: #fff;
+}
+
+.texquotes{
+	font-weight: 600;
+}
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+.auto{
+	 background-color: rgba(250,250,250,0.9);
+	width: 10rem;
+	height: 30%;
+}
+#quote-carousel .carousel-control.left {
+    left: 60px;
+}
+#quote-carousel .carousel-control.right {
+    right: 60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -60px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border-color: transparent;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+i.fa.fa-star{
+	color: #ffe700;
+}
+
+/* SIX section */
+
+.six-section{
+	width: 100%;
+	background-color: #222;
+	padding: 40px;
+}
+
+.suscribir{
+	font-family: 'Montserrat';
+	color: white;
+	text-align: center;
+	font-weight: 900;
+	font-size: 30px;
+	margin-top: 10rem;
+	
+}
+
+.formsubs{
+	padding-top: 5rem;
+	margin-bottom: 50px;
+}
+.input-group {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.input-group-lg{
+width: 70%;
+	
+}
+.btn-primary{
+	background-color: #C3B598;
+	border-color: #C3B598;
+}
+.btn-primary:hover, .btn:active, .btn:focus{
+	background-color: #d7c057;
+	border-color: #d7c057;
 }
